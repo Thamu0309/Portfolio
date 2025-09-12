@@ -23,8 +23,8 @@ const Home = () => {
         </p>
 
         <a
-          href="/Thamotharapandi_Full-Stack_Developer.pdf"
-          download
+          href={`${process.env.PUBLIC_URL}/Thamotharapandi_Full-Stack_Developer.pdf`}
+          download="Thamotharapandi_Full-Stack_Developer.pdf"
           className="inline-block px-6 py-3 bg-indigo-500 text-white rounded hover:bg-indigo-600 transition"
         >
           Download Resume
